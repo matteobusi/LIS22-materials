@@ -5,13 +5,13 @@ This is a short tutorial to set up a minimal Sancus platform to experiment with 
 ## Needed packages
 
 Install:
-    - cmake
-    - msp430-gcc
-    - msp430-elf-gcc
-    - iverilog
-    - gtkwave
-    - python3{,-pip}
-    - tk
+* cmake
+* msp430-gcc
+* msp430-elf-gcc
+* iverilog
+* gtkwave
+* python3{,-pip}
+* tk
 
 On Ubuntu:
 ```bash
