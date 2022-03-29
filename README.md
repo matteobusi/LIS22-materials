@@ -58,6 +58,5 @@ signal `mclk`).
 ## Solving some problems
 
 1. On my machine the script `omsp430_config.sh` in the `core/sim/rtl_sim/bin` folder causes problems, which are solved
-   by deleting the first line (tested also on a fresh Ubuntu 20.04LTS and there it works);
-
-2. Write me for other problems :)
+   by changing the first line to `#include "pmem.h"`  (tested also on a fresh Ubuntu 20.04LTS and there it works);
+2. Something else?
